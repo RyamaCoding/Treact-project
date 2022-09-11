@@ -259,4 +259,149 @@ FEATURES
     padding: 16px;
 }
 
+/*
+
+QUALITY
+
+*/
+
+#quality .row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0px;
+}
+
+.quality__description--wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.quality__subtitle{
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #6415ff;
+    margin-bottom: 16px;
+}
+
+.quality__title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    max-width: 600px;
+    letter-spacing: 1.2px;
+}
+
+.quality__para{
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #7c8Ba1;
+    max-width: 540px;
+    margin-bottom: 24px;
+}
+
+.quality__btn{
+    text-decoration: none;
+    color: white;
+    background-color: #6415ff;
+    border-radius: 24px;
+    padding: 12px 26px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    border: none;
+    width: 132px;
+    margin-top: 6px;
+}
+
+.quality__img--wrapper{
+    width: 50%;
+    border: 1px solid #f0f4fa;
+    border-radius: 2px;
+}
+
+.quality__img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+/*
+
+EASY
+
+*/
+
+#easy .row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.easy__img--wrapper{
+    width: 50%;
+}
+
+.easy__img{
+    width: 100%;
+    margin-top: 48px;
+}
+
+.easy__steps--wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+}
+
+.easy__steps{
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.easy__step{
+    display: flex;
+    flex-direction: column;
+}
+
+.easy__number1{
+    color: #cfdae9;
+    font-size: 33px;
+    font-weight: 400px;
+    padding-right: 24px;
+}
+
+.easy__number2{
+    color: #cfdae9;
+    font-size: 33px;
+    font-weight: 400px;
+    padding-right: 18px;
+}
+
+.easy__step--title{
+    font-weight: 400px;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.easy__step--para{
+    font-size: 14px;
+    max-width: 300px;
+    color: #7c8Ba1;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.easy__steps--box{
+    margin-top: 20px;
+}
+
 
