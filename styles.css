@@ -497,3 +497,69 @@ VALUES
     font-size: 20px;
     padding: 8px 0px 0px 8px;
 }
+
+/*
+
+PRICING
+
+*/
+
+#pricing .row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0px;
+}
+
+.pricing__threeplans--wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__subtitle{
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #6415ff;
+    margin-bottom: 24px;
+}
+
+.pricing__title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    letter-spacing: 1.2px;
+}
+
+.pricing__para{
+    font-size: 18px;
+    color: #7c8Ba1;
+    width: 45%;
+    text-align: center;
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* PLANS */
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+
+.plan{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
