@@ -745,17 +745,175 @@ TESTIMONIAL
 
 .test__img{
     width: 100%;
+    padding-top: 64px;
 }
 
 .test__wrap{
     width: 50%;
+    padding-left: 64px;
 }
 
 .star{
-    width: 20px;
+    width: 17.5px;
+    margin-right: 1.2px;
+    margin-top: 36px;
 }
 
 .test__person{
     width: 80px;
     border-radius: 9999px;
 }
+
+.test__subtitle{
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #6415ff;
+}
+
+.test__title{
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 600px;
+    letter-spacing: 1.2px;
+    margin-top: 16px;
+}
+
+.test__para{
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #7c8Ba1;
+    max-width: 540px;
+    margin-top: 24px;
+}
+
+.test__star-title{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.test__star-para{
+    color: #4a5568;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625em;
+    margin: 16px 0px 40px 0px;
+}
+
+.test__person--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.test__arrows--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.test__left{
+    display: flex;
+    align-items: center;
+}
+
+.name--wrapper{
+    margin-left: 20px;
+}
+
+.name{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+}
+
+.desc{
+    color: #7c8Ba1;
+}
+
+.arrows{
+    padding: 16px;
+    background-color: #edf2f7;
+    border-radius: 9999px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.arrows1{
+    padding: 16px;
+    background-color: #edf2f7;
+    border-radius: 9999px;
+    margin: 0px 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.arrows__border{
+    border: 1px #edf2f7 solid;
+    height: 30px;
+}
+
+/*
+
+DEV
+
+*/
+
+#dev .container{ 
+    margin: 0px 85px;
+}
+
+#dev .row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6415ff;
+    height: 282px;
+    padding: 96px 0px;
+    border-radius: 8px;
+}
+
+.dev__title{
+    color: white;
+    padding-left: 32px;
+    margin-left: 128px;
+    width: 560px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.dev__buttons{
+    padding-right: 32px;
+    margin-right: 128px;
+    display: flex;
+    align-items: center;
+}
+
+.dbuttono{
+    border: none;
+    color: #fff;
+    background-color: #f56565;
+    margin-right: 30px;
+    padding: 20px 40px;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dbuttonp{
+    border: 1px solid #f7fafc;
+    color: #fff;
+    background-color: #6415ff;
+    padding: 20px 40px;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
