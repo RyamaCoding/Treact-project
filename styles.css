@@ -318,6 +318,7 @@ QUALITY
     border: none;
     width: 132px;
     margin-top: 6px;
+    cursor: pointer;
 }
 
 .quality__img--wrapper{
@@ -478,6 +479,7 @@ VALUES
     border: none;
     width: 132px;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .dollar{
@@ -635,6 +637,7 @@ ul{
     width: 100%;
     max-width: 192px;
     border-radius: 9999px;
+    cursor: pointer;
 }
 
 .buy__btn--wrapper{
@@ -657,6 +660,7 @@ ul{
     width: 100%;
     max-width: 192px;
     border-radius: 9999px;
+    cursor: pointer;
 }
 
 .personal__title1{
@@ -707,6 +711,7 @@ ul{
     width: 100%;
     max-width: 192px;
     border-radius: 9999px;
+    cursor: pointer;
 }
 
 .plan__container{
@@ -927,18 +932,19 @@ FOOTER
     background-color: #6415ff;
 }
 
-#footer .row{
+.footer__row{
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     background-color: #6415ff;
-    margin: 0px 131px;
-    padding: 90px 0px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .links{
     display: flex;
     flex-wrap: wrap;
+    margin-right: -176px;
     margin-bottom: 60px;
 }
 
@@ -946,7 +952,6 @@ FOOTER
     display: flex;
     flex-direction: column;
     width: calc(100% / 5);
-    align-items: center;
 }
 
 .link__title{
@@ -967,7 +972,7 @@ FOOTER
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 103.5px;
+    margin-right: -40px;
 }
 
 .footer__img{
@@ -995,6 +1000,7 @@ FOOTER
     margin-top: 12px;
     padding-bottom: 4px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .footer__figure--wrapper{
@@ -1012,28 +1018,8 @@ FOOTER
 .footer__line{
     border: 0.2px solid rgba(230, 227, 227, 0.432);
     margin-bottom: 60px;
-    width: 88.6%;
-    margin-left: 103.5px;
+    width: 100%;
 }
 
-/* aligning links in footer */
 
-.link__links1{
-    margin-left: 18px;
-}
 
-.link__links2{
-    margin-right: 19.3px;
-}
-
-.link__links3{
-    margin-right: 5px;
-}
-
-.link__links4{
-    margin-left: 31.5px;
-}
-
-.link__links5{
-    margin-left: 58.5px;
-}
