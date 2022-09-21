@@ -334,7 +334,7 @@ QUALITY
 }
 
 .quality__description--wrapper{
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -372,7 +372,7 @@ QUALITY
     border-radius: 24px;
     padding: 12px 26px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.025em;
     border: none;
     width: 132px;
@@ -386,16 +386,18 @@ QUALITY
 }
 
 .quality__img--wrapper{
-    width: 50%;
-    border: 1px solid #f0f4fa;
-    border-radius: 2px;
+    width: 45%;
+    display: flex;
+    align-items: center;
 }
 
 .quality__img{
     max-width: 100%;
     height: auto;
+    border: 1px solid #f0f4fa;
+    border-radius: 2px;
     display: block;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 /*
@@ -499,11 +501,21 @@ VALUES
 
 .values__descriptions{
     display: flex;
+    width: 100%;
+    max-width: 450px;
 }
 
-.values__description-box{
+.values__description--box{
     display: flex;
     flex-direction: column;
+    width: 45%;
+    margin-right: 30px;
+}
+
+.values__description--box1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
 }
 
 .values__description-title{
@@ -1167,6 +1179,80 @@ FOOTER
     .btn__menu{
         display: block;
     }
+
+    #quality .row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .quality__description--wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 450px;
+    }
+
+    .quality__title{
+        font-size: 36px;
+    }
+
+    .quality__img--wrapper{
+        width: 75%;
+        max-width: 400px;
+    }
+
+    #easy .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .easy__img--wrapper{
+        max-width: 400px;
+        width: 75%;
+        margin-bottom: 36px;
+    }
+
+    .easy__steps--wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 600px;
+        padding-right: 64px;
+    }
+
+    .easy__steps--box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .easy__steps{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .easy__number1{
+        padding-left: 24px;
+        margin-bottom: 4px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .easy__number2{
+        padding-left: 24px;
+        margin-bottom: 4px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .easy__step--title{
+        text-align: center;
+    }
 }
 
 /* Burger Menu */
@@ -1307,11 +1393,93 @@ FOOTER
         font-size: 16px;
     }
 
-    
-}
+    #values .row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .values__description--wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .values__descriptions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 0px;
+        width: 600px;
+    }
+
+    .values__description-para{
+        padding: 0px 0px;
+    }
+
+    .values__description--box{
+        margin: 0px 0px 24px 0px;
+        max-width: 450px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .values__description--box1{
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .values__para{
+        font-size: 16px;
+    }
+
+    .values__wrapper{
+        width: 450px;
+        margin-bottom: 8px;
+    }
+
+    .values__description-title{
+        margin-bottom: 8px;
+    }
+
+    .values__description-para{
+        width: 100%;
+        max-width: 350px;
+        margin-top: 8px;
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .shading2{
+        margin-top: 16px;
+    }
+
+    .buy__btn--wrapper{
+        margin-bottom: 16px;
+    }
+
+    .plan{
+        width: 50%;
+    }
+
 
 @media (max-width: 1050px) {
     .start__img{
         width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .plan{
+        width: 200px;
     }
 }
