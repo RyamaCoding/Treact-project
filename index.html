@@ -10,8 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <link rel="icon" href="/favicon.ico" />
+    <script src="index.js"></script>
   </head>
 
   <div class="website__padding">
@@ -34,6 +36,34 @@
             <a class="nav__link--login nav__hover-effect" href="">Login</a>
             <a class="nav__link--button nav__hover-effect2" href="">Sign Up</a>
           </div>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <img src="./assets/x.svg" class="" alt="">
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#" class="menu__link">About</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link">Blog</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link">Pricing</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link">Contact Us</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link">Login</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link1 nav__link--button nav__hover-effect2" >Sign Up</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
 
@@ -46,11 +76,10 @@
                   Beautiful React Templates <span class="purple">for you.</span>
                 </h1>
                 <p class="start__paraone">
-                  Our templates are easy to setup, understand and customise.
+                  Our templates are easy to setup, understand and customise.                   Fully modular components with a variety of pages and
+                  components.
                 </p>
                 <p class="start__paratwo">
-                  Fully modular components with a variety of pages and
-                  components.
                 </p>
               </div>
               <div class="start__email">

@@ -148,7 +148,7 @@ START PAGE
 }
 
 .start__img--wrapper{
-    width: 55%;
+    width: 50%;
 }
 
 .start__img{
@@ -202,6 +202,7 @@ START PAGE
     font-weight: 600;
     padding: 16px 28px;
     cursor: pointer;
+    position: relative;
 }
 
 .start__btn:hover{
@@ -220,7 +221,7 @@ START PAGE
 
 .start__customerstext{
     margin: 64px 0px 16px 0px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #a0aec0;
 }
@@ -708,6 +709,11 @@ ul{
     cursor: pointer;
 }
 
+.buy__btng:hover{
+    box-shadow: 0 8px 4px -4px rgba(219, 212, 212, 0.432);
+    margin: 0px 0px 0px 4px;
+}
+
 .buy__btn--wrapper{
     padding: 32px;
     width: 100%;
@@ -729,6 +735,11 @@ ul{
     max-width: 192px;
     border-radius: 9999px;
     cursor: pointer;
+}
+
+.buy__btno:hover{
+    box-shadow: 0 8px 4px -4px rgba(219, 212, 212, 0.432);
+    margin: 0px 0px 0px 4px;
 }
 
 .personal__title1{
@@ -780,6 +791,12 @@ ul{
     max-width: 192px;
     border-radius: 9999px;
     cursor: pointer;
+}
+
+.buy__btn1:hover{
+    box-shadow: 0 8px 4px -4px rgba(37, 37, 37, 0.171);
+    margin: 0px 0px 0px 4px;
+    background-color: rgb(244, 245, 247);
 }
 
 .plan__container{
@@ -1125,4 +1142,176 @@ FOOTER
 
 .link__hover-effect:hover:after{
     background-color: #fff;
+}
+
+/* Small phones, tablets and large smartphones */
+
+@media (max-width: 768px) {
+    
+    h1{
+        font-size: 28px;
+    }
+
+    .nav__link{
+        display: none;
+    }
+
+    .nav__link--login{
+        display: none;
+    }
+
+    .nav__link--button{
+        display: none;
+    }
+
+    .btn__menu{
+        display: block;
+    }
+}
+
+/* Burger Menu */
+
+.btn__menu{
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    color: #6415ff;
+    cursor: pointer;
+    display: none;
+}
+
+.menu__backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.menu--open .menu__backdrop{
+    display: flex;
+}
+
+.btn__menu--close{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 8px;
+    color: #6415ff;
+    cursor: pointer;
+}
+
+.menu__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__link{
+    color: black;
+}
+
+.menu__list{
+    padding: 16px 0px;
+}
+
+@media (max-width: 1024px) {
+    .btn__menu{
+        display: block;
+    }
+
+    .nav__link{
+        display: none;
+    }
+
+    .nav__link--login{
+        display: none;
+    }
+
+    .nav__link--button{
+        display: none;
+    }
+
+    .start__row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start__title{
+        font-size: 30px;
+    }
+
+    .start__img{
+        width: 400px;
+    }
+
+    .start__paraone{
+        font-size: 16px;
+    }
+
+    .start__leftwrapper{
+        width: 400px;
+    }
+
+    .start__customers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start__customerstext{
+        font-size: 14px;
+    }
+
+    .start__lefttext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1024px;
+        text-align: center;
+    }
+
+    .start__email{
+        max-width: 100%;
+        width: px;
+        height: 60px;
+    }
+
+    .start__btn{
+        font-size: 14px;
+    }
+
+    .start__customers{
+        margin-bottom: 48px;
+    }
+
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service{
+        width: calc(43%);
+    }
+
+    .features__para{
+        font-size: 16px;
+    }
+
+    
+}
+
+@media (max-width: 1050px) {
+    .start__img{
+        width: 100%;
+    }
 }
