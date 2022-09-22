@@ -968,7 +968,7 @@ TESTIMONIAL
 
 DEV
 
-*/
+
 
 #dev .container{ 
     margin: 0px 85px;
@@ -982,25 +982,39 @@ DEV
     align-items: center;
     justify-content: space-between;
     background-color: #6415ff;
-    height: 282px;
+    max-height: 282px;
+    height: 100%;
     padding: 96px 0px;
     border-radius: 8px;
+    overflow: hidden;
+}
+
+.dev__title--wrapper{
+    width: 100%;
+    border: 2px white solid;
+    margin-left: 128px;
 }
 
 .dev__title{
     color: white;
-    padding-left: 32px;
-    margin-left: 128px;
-    width: 560px;
     font-size: 30px;
+    font-weight: 700;
     line-height: 45px;
+    height: 220px;
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+
 }
 
 .dev__buttons{
-    padding-right: 32px;
     margin-right: 128px;
+    margin-left: 36px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px white solid;
 }
 
 .dbuttono{
@@ -1039,6 +1053,8 @@ DEV
     color: #6415ff;
 }
 
+*/
+
 /*
 
 FOOTER
@@ -1056,25 +1072,32 @@ FOOTER
     background-color: #6415ff;
     padding-top: 90px;
     padding-bottom: 90px;
+
 }
 
 .links{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     margin-right: -176px;
     margin-bottom: 60px;
+    border: 2px solid black;
+    width: 100%;
 }
 
 .link{
     display: flex;
     flex-direction: column;
     width: calc(100% / 5);
+    align-items: center;
+    text-align: left;
 }
 
 .link__title{
     color: white;
     font-size: 16px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .footer__treact-text{
@@ -1159,6 +1182,25 @@ FOOTER
 /* Small phones, tablets and large smartphones */
 
 @media (max-width: 768px) {
+
+    .test__arrows--wrapper{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .test__para{
+        font-size: 16px;
+    }
+
+    .test__star-para{
+        font-size: 14px;
+    }
+
+    .pricing__para{
+        width: 100%;
+        max-width: 500px;
+    }
     
     h1{
         font-size: 28px;
@@ -1252,6 +1294,49 @@ FOOTER
 
     .easy__step--title{
         text-align: center;
+    }
+
+    #test .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .test__wrap{
+        padding: 0px;
+    }
+
+    .test__img--wrapper{
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 36px;
+    }
+
+    .test__wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .test__description--wrapper{
+        text-align: center;
+        width: 350px;
+    }
+
+    .test__title{
+        width: 300px;
+    }
+
+    .test__star--wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    .test__user--wrapper{
+        text-align: center;
+        width: 350px;
     }
 }
 
@@ -1470,6 +1555,7 @@ FOOTER
     .plan{
         width: 50%;
     }
+}
 
 
 @media (max-width: 1050px) {
@@ -1483,3 +1569,194 @@ FOOTER
         width: 200px;
     }
 }
+
+@media (max-width: 865px) {
+    .test__person--wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .test__arrows--wrapper{
+        margin-top: 24px;
+    }
+
+    .arrows{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1071px) {
+    .dev__title{
+        font-size: 26px;
+        line-height: 1.5em;
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 911px) {
+    #dev .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*
+
+DEV attempt 2
+
+*/
+
+.dbuttono{
+    border: none;
+    color: #fff;
+    background-color: #f56565;
+    margin-right: 30px;
+    padding: 20px 40px;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: all 300ms ease;
+}
+
+.dbuttono:hover{
+   background-color: #e73e3e;
+}
+
+.dbuttonp{
+    border: 1px solid #f7fafc;
+    color: #fff;
+    background-color: #6415ff;
+    padding: 20px 40px;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: all 300ms ease;
+}
+
+.dbuttonp:hover{
+    background-color: #fff;
+    color: #6415ff;
+}
+
+.dev__row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #6415ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 132px;
+    height: 282px;
+    border-radius: 8px;
+}
+
+.dev__title--wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev__title{
+    color: white;
+    font-size: 30px;
+}
+
+.dev__buttons{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .dev__row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dev__title--wrapper{
+        width: 100%;
+        text-align: center;
+    }
+
+    .dev__title{
+        font-size: 26px;
+    }
+
+    .dev__buttons{
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .links{
+        padding: 0 16px;
+    }
+
+    .footer__info{
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dev__title{
+        font-size: 20px;
+    }
+
+    .link{
+        width: calc(100% / 3);
+    }
+
+    .footer__info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__figure--wrapper{
+        margin-bottom: 24px;
+    }
+
+    .copyright{
+        margin-bottom: 24px;
+    }
+
+    .footer_logos{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 563px){
+    .dev__title--wrapper{
+        width: 300px;
+    }
+}
+
+@media (max-width: 418px){
+    .dev__buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dbuttono{
+        margin: 0px;
+    }
+
+    .dbuttonp{
+        margin-top: 8px;
+    }
+
+    .dev__title{
+        font-size: 16px;
+        width: 200px;
+        text-align: center;
+    }
+
+}
+
